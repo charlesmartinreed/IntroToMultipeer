@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8CC12BAE220236B200508A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC12BAD220236B200508A9F /* AppDelegate.swift */; };
-		8CC12BB0220236B200508A9F /* ColorSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC12BAF220236B200508A9F /* ColorSwitchViewController.swift */; };
 		8CC12BB3220236B200508A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC12BB1220236B200508A9F /* Main.storyboard */; };
 		8CC12BB5220236B400508A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC12BB4220236B400508A9F /* Assets.xcassets */; };
 		8CC12BB8220236B400508A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC12BB6220236B400508A9F /* LaunchScreen.storyboard */; };
+		8CEAB2FE22023F7C003D307C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAB2FD22023F7C003D307C /* ViewController.swift */; };
+		8CEAB30022023F88003D307C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAB2FF22023F88003D307C /* ChatViewController.swift */; };
+		8CEAB30222024325003D307C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAB30122024325003D307C /* User.swift */; };
+		8CEAB3042202435B003D307C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAB3032202435B003D307C /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8CC12BAA220236B200508A9F /* IntroToMultipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToMultipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC12BAD220236B200508A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CC12BAF220236B200508A9F /* ColorSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwitchViewController.swift; sourceTree = "<group>"; };
 		8CC12BB2220236B200508A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CC12BB4220236B400508A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CC12BB7220236B400508A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CC12BB9220236B400508A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CEAB2FD22023F7C003D307C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CEAB2FF22023F88003D307C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8CEAB30122024325003D307C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8CEAB3032202435B003D307C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				8CC12BAD220236B200508A9F /* AppDelegate.swift */,
-				8CC12BAF220236B200508A9F /* ColorSwitchViewController.swift */,
 				8CC12BB1220236B200508A9F /* Main.storyboard */,
+				8CEAB2FD22023F7C003D307C /* ViewController.swift */,
+				8CEAB2FF22023F88003D307C /* ChatViewController.swift */,
 				8CC12BB4220236B400508A9F /* Assets.xcassets */,
 				8CC12BB6220236B400508A9F /* LaunchScreen.storyboard */,
 				8CC12BB9220236B400508A9F /* Info.plist */,
+				8CEAB30122024325003D307C /* User.swift */,
+				8CEAB3032202435B003D307C /* Message.swift */,
 			);
 			path = IntroToMultipeer;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC12BB0220236B200508A9F /* ColorSwitchViewController.swift in Sources */,
+				8CEAB30222024325003D307C /* User.swift in Sources */,
+				8CEAB2FE22023F7C003D307C /* ViewController.swift in Sources */,
+				8CEAB3042202435B003D307C /* Message.swift in Sources */,
+				8CEAB30022023F88003D307C /* ChatViewController.swift in Sources */,
 				8CC12BAE220236B200508A9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
