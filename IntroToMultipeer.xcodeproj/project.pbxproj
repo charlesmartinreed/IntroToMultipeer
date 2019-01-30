@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C54A9F622024B1200071350 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54A9F522024B1200071350 /* MPCManager.swift */; };
 		8CC12BAE220236B200508A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC12BAD220236B200508A9F /* AppDelegate.swift */; };
 		8CC12BB3220236B200508A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC12BB1220236B200508A9F /* Main.storyboard */; };
 		8CC12BB5220236B400508A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC12BB4220236B400508A9F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C54A9F522024B1200071350 /* MPCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
 		8CC12BAA220236B200508A9F /* IntroToMultipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToMultipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC12BAD220236B200508A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CC12BB2220236B200508A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8CC12BB9220236B400508A9F /* Info.plist */,
 				8CEAB30122024325003D307C /* User.swift */,
 				8CEAB3032202435B003D307C /* Message.swift */,
+				8C54A9F522024B1200071350 /* MPCManager.swift */,
 			);
 			path = IntroToMultipeer;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				8CEAB30222024325003D307C /* User.swift in Sources */,
 				8CEAB2FE22023F7C003D307C /* ViewController.swift in Sources */,
+				8C54A9F622024B1200071350 /* MPCManager.swift in Sources */,
 				8CEAB3042202435B003D307C /* Message.swift in Sources */,
 				8CEAB30022023F88003D307C /* ChatViewController.swift in Sources */,
 				8CC12BAE220236B200508A9F /* AppDelegate.swift in Sources */,

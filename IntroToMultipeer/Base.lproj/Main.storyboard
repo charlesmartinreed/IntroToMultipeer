@@ -57,6 +57,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="BIv-er-HQI"/>
                     <connections>
+                        <outlet property="tableView" destination="jrq-jt-Vp0" id="iiJ-ak-BKI"/>
                         <segue destination="nGM-zv-nHr" kind="show" identifier="segueToChatVC" id="m5I-69-dLt"/>
                     </connections>
                 </viewController>
