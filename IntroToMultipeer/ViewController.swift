@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var users = [User]()
     
     override func viewDidLoad() {
-        
+        print("Just dummy info")
     }
 }
 
