@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         print("Just dummy info")
+        print("More dummy information.")
     }
 }
 
