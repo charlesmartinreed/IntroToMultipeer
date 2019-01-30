@@ -8,13 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorSwitchViewController: UIViewController {
 
+    //MARK:- IBOutlets
+    @IBOutlet weak var connectionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
 
+    //MARK:- IBActions
+    @IBAction func redButtonTapped(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func yellowButtonTapped(_ sender: UIButton) {
+        
+    }
+    
+    
 }
 
